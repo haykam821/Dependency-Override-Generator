@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "dependencyoverridegenerator",
+	"version": "${version}",
+	"name": "Dependency Override Generator",
+	"description": "Generates overrides for mod dependencies on Minecraft versions.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Dependency-Override-Generator#readme",
+		"issues": "https://github.com/haykam821/Dependency-Override-Generator/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.dependencyoverridegenerator.Main"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/dependencyoverridegenerator/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
